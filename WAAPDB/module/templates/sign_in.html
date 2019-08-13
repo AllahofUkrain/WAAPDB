@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ru-ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign UP</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body class="text-center">
+    <form method="post" class="form-singin">
+        {% csrf_token %}
+        <button class="btn btn-lg btn-primary btn-block" type="submit" name="sign_in">Sign in</button>
+    </form>
+</body>
+</html>
